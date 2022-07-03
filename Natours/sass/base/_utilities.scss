@@ -1,0 +1,17 @@
+.u-center-text {
+  //inline block elements are treated as text.
+  //we are targeting the h2 parent here, so the h2 will be centered
+  text-align: center;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem;
+}
+
+.u-margin-bottom-med {
+  margin-bottom: 6rem;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem;
+}

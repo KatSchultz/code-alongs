@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+
+html {
+  // This defines what one rem is
+  /* default is 16px */
+  font-size: 62.5%;
+}
+
+/*EVERYTHING IN BODY WILL BE INHERITED BY CHILDREN
+BETTER THAN PUTTING EVERYTHING IN * SELECTOR*/
+body {
+  box-sizing: border-box;
+}
